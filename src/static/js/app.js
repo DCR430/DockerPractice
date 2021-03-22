@@ -47,7 +47,7 @@ function TodoListCard() {
         [items],
     );
 
-    if (items === null) return 'Getting Started...';
+    if (items === null) return 'Getting Started Now';
 
     return (
         <React.Fragment>
